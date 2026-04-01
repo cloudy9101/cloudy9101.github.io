@@ -21,6 +21,12 @@ jobs:
 
       - name: Update content submodule to latest
         run: |
+          git submodule update --init content/posts
+
+          cd content/posts
+          git fetch origin content
+          cd ../..
+
           git submodule update --remote content
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
