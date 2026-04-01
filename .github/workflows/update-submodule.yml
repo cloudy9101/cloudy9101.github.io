@@ -24,12 +24,12 @@ jobs:
           git submodule update --init content/posts
 
           cd content/posts
-          git fetch origin content
+          git fetch origin content:refs/remotes/origin/content
           cd ../..
 
-          git submodule update --remote content
+          git submodule update --remote content/posts
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content
+          git add content/posts
           git diff --staged --quiet || git commit -m "chore: update content submodule to latest"
           git push origin main
