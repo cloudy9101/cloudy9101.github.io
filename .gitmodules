@@ -1,0 +1,11 @@
+[submodule "themes/coder"]
+	path = themes/coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "content"]
+	path = content
+	url = https://github.com/cloudy9101/cloudy9101.github.io.git
+	branch = content
+[submodule "content/posts"]
+	path = content/posts
+	url = https://github.com/cloudy9101/cloudy9101.github.io.git
+	branch = content

@@ -1,0 +1,53 @@
+baseURL = 'https://blog.cloudy9101.com/'
+locale = 'en-us'
+title = "Ray's Dev Blog"
+theme = 'coder'
+languagecode = 'en'
+defaultcontentlanguage = 'en'
+
+[pagination]
+pagerSize = 20
+
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = 'Ray Hao'
+  info = 'Stay gold, ponyboy.'
+  description = "Ray's Dev Blog"
+  keywords = "developer,golang,ruby,kubernetes,docker,cicd"
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+  colorScheme = "auto"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/cloudy9101/"
+[[params.social]]
+  name = "X"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 2
+  url = "https://x.com/cloudy9101/"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/cloudy9101/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url  = "projects/"
+[[menu.main]]
+  name = "About"
+  weight = 3
+  url = "about/"
