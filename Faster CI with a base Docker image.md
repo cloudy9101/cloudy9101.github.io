@@ -1,3 +1,11 @@
+---
+date: 2026-03-31
+draft: true
+title: Faster CI with a base Docker image
+weight: 10
+params:
+  author: Ray Hao
+---
 > How I cut our GitHub Actions pipeline from 20 minutes to under 10
 
 ![Sand in an hourglass](https://images.unsplash.com/photo-1499377193864-82682aefed04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyNHx8dGltZXxlbnwwfDB8fHwxNzc0NTE3NTYxfDA&ixlib=rb-4.1.0&q=80&w=1080)

@@ -1,3 +1,11 @@
+---
+date: 2023-01-24
+draft: false
+title: Learn In Public
+weight: 10
+params:
+  author: Ray Hao
+---
 *I write this blog after I saw the [Learn In Public](https://www.swyx.io/learn-in-public/) article from [@swyx](https://twitter.com/intent/user?screen_name=swyx). It's basically my thought or summary of the article.*
 
 ![Busy stair](https://images.unsplash.com/reserve/NV0eHnNkQDHA21GC3BAJ_Paris%20Louvr.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjAwOTd8MHwxfHNlYXJjaHwxfHxwdWJsaWN8ZW58MHwwfHx8MTY2MjEyNjgzNA&ixlib=rb-1.2.1&q=80&w=1080)

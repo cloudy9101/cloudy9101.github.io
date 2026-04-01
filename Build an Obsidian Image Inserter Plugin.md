@@ -1,3 +1,11 @@
+---
+date: 2023-01-22
+draft: false
+title: Build an Obsidian Image Inserter Plugin
+weight: 10
+params:
+  author: Ray Hao
+---
 ![Everything](https://images.unsplash.com/photo-1452860606245-08befc0ff44b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjAwOTd8MHwxfHNlYXJjaHw2fHx0b29sfGVufDB8MHx8fDE2NjM0MDE1MTg&ixlib=rb-1.2.1&q=80&w=1080)
 *Photo by [Jo Szczepanska](https://unsplash.com/@joszczepanska?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*
 
