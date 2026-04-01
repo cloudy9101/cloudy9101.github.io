@@ -8,7 +8,6 @@ defaultcontentlanguage = 'en'
 [pagination]
 pagerSize = 20
 
-
 [markup.highlight]
 style = "github-dark"
 
@@ -51,3 +50,7 @@ style = "github-dark"
   name = "About"
   weight = 3
   url = "about/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
