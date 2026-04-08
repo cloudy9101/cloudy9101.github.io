@@ -20,7 +20,7 @@ flowchart TB
 	C --> D[Build services, Run tests, Lint]
 ```
 
-The project is a medium-complexity Go codebase with several microservices. For every PR, each workflow went through the same steps: checkout, install a suite of binary tools, build, test etc. Build and unit tests were fast by themselves. Most of the time was consumed by installing those binary tools on every single run. And since these installations depended on external networks, they were a constant source of inconsistent failures which led workflows failing for unrelated reasons.
+The project is a medium-complexity Go codebase with several microservices. For every PR, each workflow went through the same steps: checkout, install a suite of binary tools, build, test, etc. Build and unit tests were fast by themselves. Most of the time was consumed by installing those binary tools on every single run. And since these installations depended on external networks, they were a constant source of inconsistent failures which led workflows failing for unrelated reasons.
 We had been recording per-step timing via OpenTelemetry. Looking at the data, tool installation was repeated on every single run despite never changing between PRs. That was the real target.
 ## Solution
 
@@ -83,7 +83,7 @@ All other workflows first run resolve-image. If the image already exists, build-
     fi
 
 # In build-image: skip the build if the image already exists
-- name: Build and push ci-base image
+- name: Build and push base image
   if: needs.resolve-image.outputs.exists != 'true'
   uses: docker/build-push-action@v7
   with:
